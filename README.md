@@ -1,4 +1,4 @@
-# 🧠 Basic Image Classification with TensorFlow (MNIST)
+#  Basic Image Classification with TensorFlow (MNIST)
 
 This project demonstrates how to build, train, and evaluate a neural network using **TensorFlow and Keras** to classify handwritten digit images from the **MNIST dataset**.
 
@@ -6,7 +6,7 @@ The goal is to predict which digit (0–9) appears in a grayscale image of size 
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 - **Task:** Multi-class image classification  
 - **Dataset:** MNIST handwritten digits  
@@ -16,7 +16,7 @@ The goal is to predict which digit (0–9) appears in a grayscale image of size 
 
 ---
 
-## 📊 Dataset Details
+##  Dataset Details
 
 The MNIST dataset contains:
 
@@ -30,15 +30,15 @@ The dataset is automatically loaded using TensorFlow’s built-in dataset loader
 
 ---
 
-## 🧹 Preprocessing Steps
+##  Preprocessing Steps
 
 Before training, the following preprocessing operations were applied:
 
-### ✅ Normalization
+###  Normalization
 Pixel values originally ranged from 0 to 255.  
 They were scaled to the range **0–1** to make training stable and faster.
 
-### ✅ Flattening
+###  Flattening
 Images were reshaped from:
 
 28 × 28 → 784
@@ -46,12 +46,12 @@ Images were reshaped from:
 
 This was required because Dense layers expect one-dimensional input.
 
-### ✅ One-Hot Encoding
+###  One-Hot Encoding
 Digit labels were converted into vectors of length 10 to match the softmax output layer and categorical crossentropy loss function.
 
 ---
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 The neural network is built using a Sequential model with the following layers:
 
@@ -64,7 +64,7 @@ The neural network is built using a Sequential model with the following layers:
 
 ---
 
-## ⚙️ Model Compilation
+##  Model Compilation
 
 The model was compiled using:
 
@@ -74,7 +74,7 @@ The model was compiled using:
 
 ---
 
-## 📈 Training
+##  Training
 
 The model was trained using:
 
@@ -86,7 +86,7 @@ Training was performed using `model.fit()` to update the weights through backpro
 
 ---
 
-## 📊 Evaluation
+##  Evaluation
 
 After training, the model was evaluated on the test dataset using:
 
@@ -102,7 +102,7 @@ These values indicate how well the model generalizes to unseen images.
 
 ---
 
-## 🔍 Making Predictions
+##  Making Predictions
 
 The trained model outputs probabilities for each digit class.
 
@@ -113,7 +113,7 @@ argmax()
 
 ---
 
-## 🧠 Key Concepts Learned
+##  Key Concepts Learned
 
 - Image classification
 - Supervised learning
@@ -128,7 +128,7 @@ argmax()
 
 ---
 
-## 🚀 Possible Improvements
+##  Possible Improvements
 
 Some ways this project could be extended:
 
