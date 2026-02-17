@@ -141,7 +141,7 @@ Some ways this project could be extended:
 
 ---
 
-## 📜 Conclusion
+##  Conclusion
 
 This project provides a complete beginner-friendly pipeline for image classification using TensorFlow. It introduces fundamental deep-learning concepts such as preprocessing, model construction, training, evaluation, and prediction, forming a strong foundation for more advanced computer-vision tasks.
 
